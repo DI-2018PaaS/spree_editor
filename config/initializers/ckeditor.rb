@@ -25,5 +25,7 @@ if Object.const_defined?('Ckeditor')
     # //cdn.ckeditor.com/<version.number>/<distribution>/ckeditor.js | distributions
     # available here: https://ckeditor.com/cke4/presets-all
     config.cdn_url = '//cdn.ckeditor.com/4.11.3/standard/ckeditor.js'
+
+    config.asset_path = "/assets/ckeditor/"
   end
 end
